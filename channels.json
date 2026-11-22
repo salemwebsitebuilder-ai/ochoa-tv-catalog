@@ -14,7 +14,8 @@
    "verification": "A",
    "enabled": true,
    "lastSuccessfulTest": "2026-11-22",
-   "logo": "milenio"
+   "logo": "milenio",
+   "schedule": "scheduled"
   },
   {
    "id": "multimedios",
@@ -30,7 +31,8 @@
    "verification": "A",
    "enabled": true,
    "lastSuccessfulTest": "2026-11-22",
-   "logo": "multimedios"
+   "logo": "multimedios",
+   "schedule": "scheduled"
   },
   {
    "id": "canal22-yt",
@@ -46,7 +48,8 @@
    "verification": "A",
    "enabled": true,
    "lastSuccessfulTest": "2026-11-22",
-   "logo": "canal22"
+   "logo": "canal22",
+   "schedule": "scheduled"
   },
   {
    "id": "canal-congreso",
@@ -61,7 +64,8 @@
    "verification": "A",
    "enabled": true,
    "lastSuccessfulTest": "2026-11-22",
-   "logo": "congreso"
+   "logo": "congreso",
+   "schedule": "24/7"
   },
   {
    "id": "canal-once",
@@ -76,7 +80,8 @@
    "verification": "B",
    "enabled": true,
    "lastSuccessfulTest": "2026-11-22",
-   "logo": "canalonce"
+   "logo": "canalonce",
+   "schedule": "24/7"
   },
   {
    "id": "canal-once-2",
@@ -91,7 +96,8 @@
    "verification": "B",
    "enabled": true,
    "lastSuccessfulTest": "2026-11-22",
-   "logo": "canalonce"
+   "logo": "canalonce",
+   "schedule": "24/7"
   },
   {
    "id": "ilce-15",
@@ -106,7 +112,8 @@
    "verification": "B",
    "enabled": true,
    "lastSuccessfulTest": "2026-11-22",
-   "logo": "ilce"
+   "logo": "ilce",
+   "schedule": "24/7"
   },
   {
    "id": "justicia-tv",
@@ -121,7 +128,8 @@
    "verification": "B",
    "enabled": true,
    "lastSuccessfulTest": "2026-11-22",
-   "logo": "justicia"
+   "logo": "justicia",
+   "schedule": "24/7"
   },
   {
    "id": "unison-tv",
@@ -136,7 +144,8 @@
    "verification": "B",
    "enabled": false,
    "lastSuccessfulTest": null,
-   "disabledReason": "TLS error on device: \"Secure connection setup failed\" (t42)"
+   "disabledReason": "TLS error on device: \"Secure connection setup failed\" (t42)",
+   "schedule": "24/7"
   },
   {
    "id": "imagen-tv",
@@ -152,7 +161,8 @@
    "verification": "A",
    "enabled": false,
    "lastSuccessfulTest": null,
-   "disabledReason": "Never starts playing on Vega (live + playable per YouTube) — t36, t39, t40"
+   "disabledReason": "Never starts playing on Vega (live + playable per YouTube) — t36, t39, t40",
+   "schedule": "scheduled"
   },
   {
    "id": "nmas",
@@ -168,7 +178,8 @@
    "verification": "A",
    "enabled": false,
    "lastSuccessfulTest": null,
-   "disabledReason": "No embeddable live broadcast"
+   "disabledReason": "No embeddable live broadcast",
+   "schedule": "scheduled"
   },
   {
    "id": "xhbzc",
@@ -184,7 +195,8 @@
    "verification": "A",
    "enabled": true,
    "lastSuccessfulTest": "2026-11-22",
-   "logo": "xhbzc"
+   "logo": "xhbzc",
+   "schedule": "24/7"
   },
   {
    "id": "iertbcs-82",
@@ -200,7 +212,8 @@
    "verification": "A",
    "enabled": true,
    "lastSuccessfulTest": "2026-11-22",
-   "logo": "iertbcs-82"
+   "logo": "iertbcs-82",
+   "schedule": "24/7"
   },
   {
    "id": "psn",
@@ -216,7 +229,8 @@
    "verification": "A",
    "enabled": true,
    "lastSuccessfulTest": "2026-11-22",
-   "logo": "psn"
+   "logo": "psn",
+   "schedule": "24/7"
   },
   {
    "id": "psn-452",
@@ -232,7 +246,8 @@
    "verification": "A",
    "enabled": true,
    "lastSuccessfulTest": "2026-11-22",
-   "logo": "psn-452"
+   "logo": "psn-452",
+   "schedule": "24/7"
   },
   {
    "id": "el-sonorense",
@@ -247,7 +262,8 @@
    "originEvidence": "iptv-org ElSonorense.mx; stream host referenced by official website (https://www.elsonorense.com/)",
    "verification": "A",
    "enabled": true,
-   "lastSuccessfulTest": "2026-11-22"
+   "lastSuccessfulTest": "2026-11-22",
+   "schedule": "24/7"
   },
   {
    "id": "telemax",
@@ -263,7 +279,8 @@
    "verification": "A",
    "enabled": true,
    "lastSuccessfulTest": "2026-11-22",
-   "logo": "telemax"
+   "logo": "telemax",
+   "schedule": "24/7"
   },
   {
    "id": "tv-migrante",
@@ -279,7 +296,8 @@
    "verification": "A",
    "enabled": true,
    "lastSuccessfulTest": "2026-11-22",
-   "logo": "tv-migrante"
+   "logo": "tv-migrante",
+   "schedule": "24/7"
   },
   {
    "id": "sipse-tvcun",
@@ -295,7 +313,8 @@
    "verification": "A",
    "enabled": true,
    "lastSuccessfulTest": "2026-11-22",
-   "logo": "sipse-tvcun"
+   "logo": "sipse-tvcun",
+   "schedule": "24/7"
   },
   {
    "id": "smrtv",
@@ -311,7 +330,8 @@
    "verification": "A",
    "enabled": true,
    "lastSuccessfulTest": "2026-11-22",
-   "logo": "smrtv"
+   "logo": "smrtv",
+   "schedule": "24/7"
   },
   {
    "id": "turistik",
@@ -327,7 +347,8 @@
    "verification": "A",
    "enabled": true,
    "lastSuccessfulTest": "2026-11-22",
-   "logo": "turistik"
+   "logo": "turistik",
+   "schedule": "24/7"
   },
   {
    "id": "azteca-deportes-live",
@@ -342,7 +363,8 @@
    "originEvidence": "Official YouTube channel of TV Azteca Deportes (Mexico)",
    "verification": "A",
    "enabled": true,
-   "lastSuccessfulTest": null
+   "lastSuccessfulTest": null,
+   "schedule": "events"
   },
   {
    "id": "claro-sports-live",
@@ -356,8 +378,10 @@
    },
    "originEvidence": "Official YouTube channel of Claro Sports (Mexico)",
    "verification": "A",
-   "enabled": true,
-   "lastSuccessfulTest": null
+   "enabled": false,
+   "lastSuccessfulTest": null,
+   "schedule": "events",
+   "disabledReason": "YouTube refuses Claro Sports videos in third-party embedded players: 6/6 tested videos returned code auth on the Fire TV (2026-11-22), incl. a full game. Live broadcasts expected to behave the same; re-enable only after a live test plays."
   },
   {
    "id": "cine-mexicano-24-7",
@@ -372,7 +396,8 @@
    "originEvidence": "Official, YouTube-verified Cine Mexicano channel — its own 24/7 live film stream",
    "verification": "A",
    "enabled": true,
-   "lastSuccessfulTest": null
+   "lastSuccessfulTest": null,
+   "schedule": "24/7"
   }
  ]
 }
