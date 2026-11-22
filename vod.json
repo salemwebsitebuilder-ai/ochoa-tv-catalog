@@ -267,6 +267,19 @@
    "enabled": true
   },
   {
+   "id": "masiosare",
+   "section": "documentales",
+   "title": "Masiosare · Historia de México",
+   "producer": "Canal 22",
+   "source": {
+    "type": "playlist",
+    "id": "PLHXFQrHFFd_XkGahfD1EsYTPwF4PEb0ic"
+   },
+   "originEvidence": "Official Canal 22 playlist 'Masiosare | Tercera temporada'",
+   "minEpisodeNote": "55–56 min episodes",
+   "enabled": true
+  },
+  {
    "id": "canal22-recientes",
    "section": "documentales",
    "title": "Canal 22 · Conciertos, ópera y cultura",
