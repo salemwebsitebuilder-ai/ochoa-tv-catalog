@@ -514,6 +514,156 @@
    },
    "originEvidence": "Official channel of Club Tigres UANL",
    "enabled": true
+  },
+  {
+   "id": "cm-populares",
+   "section": "peliculas",
+   "title": "Las más vistas",
+   "producer": "Cine Mexicano",
+   "source": {
+    "type": "playlist",
+    "id": "UULPVfDJV9G7Rbfo7dJRIKKanw"
+   },
+   "originEvidence": "Official, YouTube-verified Cine Mexicano channel — its auto 'popular uploads' feed",
+   "enabled": true,
+   "include": "pel[ií]culas? (mexicanas )?complet"
+  },
+  {
+   "id": "azteca-populares",
+   "section": "series",
+   "title": "Lo más visto de TV Azteca",
+   "producer": "TV Azteca",
+   "source": {
+    "type": "playlist",
+    "id": "UULPq49Dchmdahq2tS9TJCv7XQ"
+   },
+   "originEvidence": "Official TV Azteca Novelas y Series channel — popular uploads feed (40–46 min episodes)",
+   "enabled": true
+  },
+  {
+   "id": "canal22-populares",
+   "section": "documentales",
+   "title": "Canal 22 · Documentales más vistos",
+   "producer": "Canal 22",
+   "source": {
+    "type": "playlist",
+    "id": "UULPwFaHK7ir817prgY5Y-qemw"
+   },
+   "originEvidence": "Official Canal 22 channel — popular uploads feed (26–85 min)",
+   "enabled": true
+  },
+  {
+   "id": "canal22-transmisiones",
+   "section": "documentales",
+   "title": "Canal 22 · Conciertos y ópera completos",
+   "producer": "Canal 22",
+   "source": {
+    "type": "playlist",
+    "id": "UULVwFaHK7ir817prgY5Y-qemw"
+   },
+   "originEvidence": "Official Canal 22 channel — past live broadcasts (full concerts/operas)",
+   "enabled": true
+  },
+  {
+   "id": "tvunam-transmisiones",
+   "section": "documentales",
+   "title": "TV UNAM · Programas completos",
+   "producer": "TV UNAM",
+   "source": {
+    "type": "playlist",
+    "id": "UULVrnbT_nd9Dvg87PXefx7pQA"
+   },
+   "originEvidence": "Official TV UNAM channel (UNAM public broadcaster) — past live broadcasts",
+   "enabled": true
+  },
+  {
+   "id": "once-canciones",
+   "section": "infantil",
+   "title": "Canciones de Once Niñas y Niños",
+   "producer": "Canal Once",
+   "source": {
+    "type": "playlist",
+    "id": "UULP0zvIM2UXP8tgBzAlW2ffCQ"
+   },
+   "originEvidence": "Official Once Niñas y Niños channel — popular uploads (children's songs)",
+   "enabled": true
+  },
+  {
+   "id": "once-especiales",
+   "section": "infantil",
+   "title": "Once Niñas y Niños · Conciertos y maratones",
+   "producer": "Canal Once",
+   "source": {
+    "type": "playlist",
+    "id": "UULV0zvIM2UXP8tgBzAlW2ffCQ"
+   },
+   "originEvidence": "Official Once Niñas y Niños channel — past live broadcasts",
+   "enabled": true
+  },
+  {
+   "id": "azteca-deportes-repeticiones",
+   "section": "deportes",
+   "title": "Repeticiones · Partidos y transmisiones completas",
+   "producer": "TV Azteca Deportes",
+   "source": {
+    "type": "playlist",
+    "id": "UULVe3Ev4a4Sm9L5aO9sJJ_WXw"
+   },
+   "originEvidence": "Official TV Azteca Deportes channel — past live broadcasts (full matches)",
+   "enabled": true,
+   "titleEn": "Repeticiones · Partidos y transmisiones completas"
+  },
+  {
+   "id": "ligamx-populares",
+   "section": "deportes",
+   "title": "Liga MX · Lo más visto",
+   "producer": "LIGA BBVA MX",
+   "source": {
+    "type": "playlist",
+    "id": "UULPq8BPLXtFeiSFOvmJrknWGg"
+   },
+   "originEvidence": "Official LIGA BBVA MX channel — popular uploads",
+   "enabled": true,
+   "titleEn": "Liga MX · Lo más visto"
+  },
+  {
+   "id": "seleccion-populares",
+   "section": "deportes",
+   "title": "Selección Mexicana · Lo más visto",
+   "producer": "Selección Nacional de México",
+   "source": {
+    "type": "playlist",
+    "id": "UULP3D3rXIt1zy-TC_wJ3V8Z_w"
+   },
+   "originEvidence": "Official Selección Nacional de México channel — popular uploads",
+   "enabled": true,
+   "titleEn": "Selección Mexicana · Lo más visto"
+  },
+  {
+   "id": "chivas-populares",
+   "section": "deportes",
+   "title": "Chivas · Lo más visto",
+   "producer": "Chivas",
+   "source": {
+    "type": "playlist",
+    "id": "UULPbtodmCOE5CDdVvVvUzwQfQ"
+   },
+   "originEvidence": "Official Chivas channel — popular uploads",
+   "enabled": true,
+   "titleEn": "Chivas · Lo más visto"
+  },
+  {
+   "id": "america-populares",
+   "section": "deportes",
+   "title": "Club América · Lo más visto",
+   "producer": "Club América",
+   "source": {
+    "type": "playlist",
+    "id": "UULP3j75twE_C1Y3TKgkN2iffA"
+   },
+   "originEvidence": "Official Club América channel — popular uploads",
+   "enabled": true,
+   "titleEn": "Club América · Lo más visto"
   }
  ]
 }

@@ -358,6 +358,21 @@
    "verification": "A",
    "enabled": true,
    "lastSuccessfulTest": null
+  },
+  {
+   "id": "cine-mexicano-24-7",
+   "name": "Cine Mexicano 24/7",
+   "city": "Películas en vivo",
+   "genre": "entertainment",
+   "playback": {
+    "type": "youtube",
+    "channelId": "UCVfDJV9G7Rbfo7dJRIKKanw",
+    "liveTitle": "24/7|en vivo"
+   },
+   "originEvidence": "Official, YouTube-verified Cine Mexicano channel — its own 24/7 live film stream",
+   "verification": "A",
+   "enabled": true,
+   "lastSuccessfulTest": null
   }
  ]
 }
