@@ -664,6 +664,148 @@
    "originEvidence": "Official Club América channel — popular uploads",
    "enabled": true,
    "titleEn": "Club América · Lo más visto"
+  },
+  {
+   "id": "box-azteca",
+   "section": "deportes",
+   "title": "Boxeo · Box Azteca y peleas clásicas",
+   "producer": "TV Azteca Deportes",
+   "source": {
+    "type": "playlist",
+    "id": "UULPe3Ev4a4Sm9L5aO9sJJ_WXw"
+   },
+   "originEvidence": "Official TV Azteca Deportes channel — popular uploads (Box Azteca, classic fights)",
+   "enabled": true,
+   "titleEn": "Boxeo · Box Azteca y peleas clásicas"
+  },
+  {
+   "id": "femenil-chivas",
+   "section": "deportes",
+   "title": "Liga MX Femenil · Chivas (transmisiones grabadas)",
+   "producer": "Chivas",
+   "source": {
+    "type": "playlist",
+    "id": "UULVbtodmCOE5CDdVvVvUzwQfQ"
+   },
+   "originEvidence": "Official Chivas channel — past live broadcasts (Chivas Femenil matches)",
+   "enabled": true,
+   "titleEn": "Liga MX Femenil · Chivas (transmisiones grabadas)"
+  },
+  {
+   "id": "pumas-transmisiones",
+   "section": "deportes",
+   "title": "Pumas · Partidos y transmisiones grabadas",
+   "producer": "PumasMX",
+   "source": {
+    "type": "playlist",
+    "id": "UULVBXP2OK41YuDIxOJrt27LKA"
+   },
+   "originEvidence": "Official Pumas UNAM channel — past live broadcasts",
+   "enabled": true,
+   "titleEn": "Pumas · Partidos y transmisiones grabadas"
+  },
+  {
+   "id": "seleccion-transmisiones",
+   "section": "deportes",
+   "title": "Selección Mexicana · Transmisiones grabadas",
+   "producer": "Selección Nacional de México",
+   "source": {
+    "type": "playlist",
+    "id": "UULV3D3rXIt1zy-TC_wJ3V8Z_w"
+   },
+   "originEvidence": "Official Selección Nacional de México channel — past live broadcasts",
+   "enabled": true,
+   "titleEn": "Selección Mexicana · Transmisiones grabadas"
+  },
+  {
+   "id": "ligamx-transmisiones",
+   "section": "deportes",
+   "title": "Liga MX · Partidos transmitidos (grabados)",
+   "producer": "LIGA BBVA MX",
+   "source": {
+    "type": "playlist",
+    "id": "UULVq8BPLXtFeiSFOvmJrknWGg"
+   },
+   "originEvidence": "Official LIGA BBVA MX channel — past live broadcasts",
+   "enabled": true,
+   "titleEn": "Liga MX · Partidos transmitidos (grabados)"
+  },
+  {
+   "id": "tigres-transmisiones",
+   "section": "deportes",
+   "title": "Tigres · Partidos (grabados)",
+   "producer": "Tigres Oficial",
+   "source": {
+    "type": "playlist",
+    "id": "UULVUpZKAvgQbvHyXAerkmxhSQ"
+   },
+   "originEvidence": "Official Tigres UANL channel — past live broadcasts",
+   "enabled": true,
+   "titleEn": "Tigres · Partidos (grabados)"
+  },
+  {
+   "id": "tigres-clasicos",
+   "section": "deportes",
+   "title": "Tigres · Momentos clásicos",
+   "producer": "Tigres Oficial",
+   "source": {
+    "type": "playlist",
+    "id": "UULPUpZKAvgQbvHyXAerkmxhSQ"
+   },
+   "originEvidence": "Official Tigres UANL channel — popular uploads (classic finals)",
+   "enabled": true,
+   "titleEn": "Tigres · Momentos clásicos"
+  },
+  {
+   "id": "america-transmisiones",
+   "section": "deportes",
+   "title": "Club América · Transmisiones grabadas",
+   "producer": "Club América",
+   "source": {
+    "type": "playlist",
+    "id": "UULV3j75twE_C1Y3TKgkN2iffA"
+   },
+   "originEvidence": "Official Club América channel — past live broadcasts",
+   "enabled": true,
+   "titleEn": "Club América · Transmisiones grabadas"
+  },
+  {
+   "id": "diablos-transmisiones",
+   "section": "deportes",
+   "title": "Diablos Rojos · Juegos transmitidos (grabados)",
+   "producer": "Diablos Rojos del México",
+   "source": {
+    "type": "playlist",
+    "id": "UULVbPTmPbmSO-BYGCMHm77RUg"
+   },
+   "originEvidence": "Official Diablos Rojos del México channel — past live broadcasts",
+   "enabled": true,
+   "titleEn": "Diablos Rojos · Juegos transmitidos (grabados)"
+  },
+  {
+   "id": "lnbp-populares",
+   "section": "deportes",
+   "title": "Baloncesto · LNBP lo más visto",
+   "producer": "LNBP Oficial",
+   "source": {
+    "type": "playlist",
+    "id": "UULPUVSXKUvpiuQ0RnNpBcpuHQ"
+   },
+   "originEvidence": "Official LNBP channel — popular uploads",
+   "enabled": true,
+   "titleEn": "Baloncesto · LNBP lo más visto"
+  },
+  {
+   "id": "tvunam-populares",
+   "section": "documentales",
+   "title": "TV UNAM · Documentales más vistos",
+   "producer": "TV UNAM",
+   "source": {
+    "type": "playlist",
+    "id": "UULPrnbT_nd9Dvg87PXefx7pQA"
+   },
+   "originEvidence": "Official TV UNAM channel — popular uploads (documentaries, forums)",
+   "enabled": true
   }
  ]
 }
