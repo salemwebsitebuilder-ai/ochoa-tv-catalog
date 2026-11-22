@@ -807,6 +807,62 @@
    },
    "originEvidence": "Official TV UNAM channel — popular uploads (documentaries, forums)",
    "enabled": true
+  },
+  {
+   "id": "pumas-clasicos",
+   "section": "deportes",
+   "title": "Pumas · Partidos clásicos y resúmenes",
+   "titleEn": "Pumas · Partidos clásicos y resúmenes",
+   "producer": "PumasMX",
+   "source": {
+    "type": "playlist",
+    "id": "UULPBXP2OK41YuDIxOJrt27LKA"
+   },
+   "include": "resumen|color|\\bvs\\.?\\b|final",
+   "originEvidence": "Official Pumas UNAM channel — popular uploads (8–18 min match reports)",
+   "enabled": true
+  },
+  {
+   "id": "pumas-cronicas",
+   "section": "deportes",
+   "title": "Pumas y Pumas Femenil · Crónicas de partido",
+   "titleEn": "Pumas y Pumas Femenil · Crónicas de partido",
+   "producer": "PumasMX",
+   "source": {
+    "type": "playlist",
+    "id": "UULFBXP2OK41YuDIxOJrt27LKA"
+   },
+   "include": "color|resumen|\\bvs\\.?\\b|conferencia|desde la cancha",
+   "originEvidence": "Official Pumas UNAM channel — long-form uploads (5–20 min, incl. Liga MX Femenil)",
+   "enabled": true
+  },
+  {
+   "id": "tigres-resumenes",
+   "section": "deportes",
+   "title": "Tigres y Tigres Femenil · Resúmenes",
+   "titleEn": "Tigres y Tigres Femenil · Resúmenes",
+   "producer": "Tigres Oficial",
+   "source": {
+    "type": "playlist",
+    "id": "UULFUpZKAvgQbvHyXAerkmxhSQ"
+   },
+   "include": "resumen|vlog|conferencia|\\bvs\\.?\\b",
+   "originEvidence": "Official Tigres UANL channel — long-form uploads (7–21 min, incl. Tigres Femenil)",
+   "enabled": true
+  },
+  {
+   "id": "claro-programas",
+   "section": "deportes",
+   "title": "Programas deportivos · Claro Sports",
+   "titleEn": "Programas deportivos · Claro Sports",
+   "producer": "Claro Sports",
+   "source": {
+    "type": "playlist",
+    "id": "UULVqfCJBfrFSO4tZM1LNZTBFQ"
+   },
+   "include": "jugando claro|playbook|liga mx|pumas|chivas|am[eé]rica|cruz azul|tigres|m[eé]xico",
+   "originEvidence": "Official Claro Sports channel — past live broadcasts (39–56 min Mexican sports shows, full games); non-Mexican items filtered out",
+   "enabled": true
   }
  ]
 }
