@@ -14,3 +14,9 @@ its last working catalog.
 
 Every entry is a public stream or video published by its rights holder, with the
 evidence recorded in `originEvidence`. Nothing is hosted here except metadata.
+
+## Weekly health check
+`.github/workflows/health.yml` runs `scripts/health_check.py` every Monday (and on demand from the
+Actions tab). It checks the active release's live HLS streams and on-demand feeds and opens an issue
+"Catalog health check: problems found" when something fails, then closes it once checks pass again.
+It is read-only: it never changes or publishes the catalog.

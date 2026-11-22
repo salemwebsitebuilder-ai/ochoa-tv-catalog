@@ -1,0 +1,44 @@
+name: Weekly catalog health check
+
+on:
+  schedule:
+    - cron: '17 14 * * 1'   # Mondays 14:17 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: read   # read the catalog only, never write
+  issues: write    # open/update/close the health issue
+
+concurrency:
+  group: health-check
+  cancel-in-progress: true
+
+jobs:
+  health:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check live streams and on-demand feeds
+        run: python3 -I scripts/health_check.py
+
+      - name: Open, update or close the health issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          fails=$(grep -oP '^FAILURES: \K[0-9]+' health-report.md)
+          title="Catalog health check: problems found"
+          existing=$(gh issue list --state open --search "in:title \"$title\"" --json number --jq '.[0].number // empty')
+          if [ "$fails" -gt 0 ]; then
+            if [ -n "$existing" ]; then
+              gh issue comment "$existing" --body-file health-report.md
+            else
+              gh issue create --title "$title" --body-file health-report.md
+            fi
+          elif [ -n "$existing" ]; then
+            gh issue comment "$existing" --body "All checks passed again on $(date -u +%F). Closing."
+            gh issue close "$existing"
+          fi
+          cat health-report.md >> "$GITHUB_STEP_SUMMARY"
