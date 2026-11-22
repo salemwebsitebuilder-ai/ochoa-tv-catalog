@@ -862,7 +862,8 @@
    },
    "include": "jugando claro|playbook|liga mx|pumas|chivas|am[eé]rica|cruz azul|tigres|m[eé]xico",
    "originEvidence": "Official Claro Sports channel — past live broadcasts (39–56 min Mexican sports shows, full games); non-Mexican items filtered out",
-   "enabled": true
+   "enabled": false,
+   "disabledReason": "3/3 tested videos refused by YouTube in the embedded player (code auth), 2026-11-22"
   }
  ]
 }
