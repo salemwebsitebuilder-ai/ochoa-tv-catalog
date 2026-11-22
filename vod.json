@@ -675,8 +675,9 @@
     "id": "UULPe3Ev4a4Sm9L5aO9sJJ_WXw"
    },
    "originEvidence": "Official TV Azteca Deportes channel — popular uploads (Box Azteca, classic fights)",
-   "enabled": true,
-   "titleEn": "Boxeo · Box Azteca y peleas clásicas"
+   "enabled": false,
+   "titleEn": "Boxeo · Box Azteca y peleas clásicas",
+   "disabledReason": "3/3 tested videos refused by YouTube in the embedded player (code auth, likely age-restricted fight footage), 2026-11-22"
   },
   {
    "id": "femenil-chivas",
