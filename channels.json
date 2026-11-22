@@ -1,0 +1,363 @@
+{
+ "channels": [
+  {
+   "id": "milenio",
+   "name": "MILENIO",
+   "city": "Ciudad de México",
+   "genre": "news",
+   "playback": {
+    "type": "youtube",
+    "channelId": "UCFxHplbcoJK9m70c4VyTIxg",
+    "liveTitle": "en vivo|🔴"
+   },
+   "originEvidence": "Official YouTube channel of Grupo Milenio (Mexico)",
+   "verification": "A",
+   "enabled": true,
+   "lastSuccessfulTest": "2026-11-22",
+   "logo": "milenio"
+  },
+  {
+   "id": "multimedios",
+   "name": "Multimedios",
+   "city": "Monterrey",
+   "genre": "entertainment",
+   "playback": {
+    "type": "youtube",
+    "channelId": "UCo1nfa1JKNqtcUyLjLwTiIw",
+    "liveTitle": "transmisi[oó]n en vivo|en vivo|🔴"
+   },
+   "originEvidence": "Official YouTube channel of Grupo Multimedios (Mexico)",
+   "verification": "A",
+   "enabled": true,
+   "lastSuccessfulTest": "2026-11-22",
+   "logo": "multimedios"
+  },
+  {
+   "id": "canal22-yt",
+   "name": "Canal 22",
+   "city": "Ciudad de México",
+   "genre": "culture",
+   "playback": {
+    "type": "youtube",
+    "channelId": "UCwFaHK7ir817prgY5Y-qemw",
+    "liveTitle": "en ?vivo"
+   },
+   "originEvidence": "Official YouTube channel of Canal 22 (Mexican public broadcaster)",
+   "verification": "A",
+   "enabled": true,
+   "lastSuccessfulTest": "2026-11-22",
+   "logo": "canal22"
+  },
+  {
+   "id": "canal-congreso",
+   "name": "Canal del Congreso",
+   "city": "Ciudad de México",
+   "genre": "news",
+   "playback": {
+    "type": "hls",
+    "url": "https://ccstreaming.packet.mx/WebRTCAppEE/streams/45.1_kd5oiNTTWO0gEOFc431277834.m3u8"
+   },
+   "originEvidence": "Mexican Congress public channel; canaldelcongreso.gob.mx plays from ccstreaming.packet.mx",
+   "verification": "A",
+   "enabled": true,
+   "lastSuccessfulTest": "2026-11-22",
+   "logo": "congreso"
+  },
+  {
+   "id": "canal-once",
+   "name": "Canal Once",
+   "city": "Ciudad de México",
+   "genre": "entertainment",
+   "playback": {
+    "type": "hls",
+    "url": "https://vivo.canaloncelive.tv/securepkgr3/oncemexico/playlist.m3u8"
+   },
+   "originEvidence": "Public broadcaster of the Instituto Politécnico Nacional; stream on canaloncelive.tv",
+   "verification": "B",
+   "enabled": true,
+   "lastSuccessfulTest": "2026-11-22",
+   "logo": "canalonce"
+  },
+  {
+   "id": "canal-once-2",
+   "name": "Canal Once · Señal 2",
+   "city": "Ciudad de México",
+   "genre": "entertainment",
+   "playback": {
+    "type": "hls",
+    "url": "https://vivo.canaloncelive.tv/secureoncedos/oncedigital/playlist.m3u8"
+   },
+   "originEvidence": "Second Canal Once (IPN) feed on Canal Once's streaming domain canaloncelive.tv; listed by Free-TV/IPTV",
+   "verification": "B",
+   "enabled": true,
+   "lastSuccessfulTest": "2026-11-22",
+   "logo": "canalonce"
+  },
+  {
+   "id": "ilce-15",
+   "name": "ILCE Canal 15",
+   "city": "Ciudad de México",
+   "genre": "culture",
+   "playback": {
+    "type": "hls",
+    "url": "https://live-ilce.ovp-vivaro.digital/ovp-origin-abr/ngrp:6359ef999f3fb_all/playlist.m3u8"
+   },
+   "originEvidence": "Instituto Latinoamericano de la Comunicación Educativa (Mexico) educational channel",
+   "verification": "B",
+   "enabled": true,
+   "lastSuccessfulTest": "2026-11-22",
+   "logo": "ilce"
+  },
+  {
+   "id": "justicia-tv",
+   "name": "Justicia TV",
+   "city": "Ciudad de México",
+   "genre": "news",
+   "playback": {
+    "type": "hls",
+    "url": "https://live-scjn.ovp-vivaro.digital/ovp-origin/638a22b47746d/playlist.m3u8"
+   },
+   "originEvidence": "Channel of the Suprema Corte de Justicia de la Nación (Mexico)",
+   "verification": "B",
+   "enabled": true,
+   "lastSuccessfulTest": "2026-11-22",
+   "logo": "justicia"
+  },
+  {
+   "id": "unison-tv",
+   "name": "Unison TV",
+   "city": "Hermosillo",
+   "genre": "culture",
+   "playback": {
+    "type": "hls",
+    "url": "https://stream.unison.mx/hls/unisontvatem.m3u8"
+   },
+   "originEvidence": "Universidad de Sonora channel; stream on unison.mx",
+   "verification": "B",
+   "enabled": false,
+   "lastSuccessfulTest": null,
+   "disabledReason": "TLS error on device: \"Secure connection setup failed\" (t42)"
+  },
+  {
+   "id": "imagen-tv",
+   "name": "Imagen Televisión",
+   "city": "Ciudad de México",
+   "genre": "entertainment",
+   "playback": {
+    "type": "youtube",
+    "channelId": "UCl5JKSQsl-_WSU1rz7_BCJA",
+    "liveTitle": "en vivo|🔴"
+   },
+   "originEvidence": "Official YouTube channel of Imagen Televisión (Mexico)",
+   "verification": "A",
+   "enabled": false,
+   "lastSuccessfulTest": null,
+   "disabledReason": "Never starts playing on Vega (live + playable per YouTube) — t36, t39, t40"
+  },
+  {
+   "id": "nmas",
+   "name": "N+",
+   "city": "Ciudad de México",
+   "genre": "news",
+   "playback": {
+    "type": "youtube",
+    "channelId": "UCUsm-fannqOY02PNN67C0KA",
+    "liveTitle": "en vivo|foro|🔴"
+   },
+   "originEvidence": "Official YouTube channel of N+ (Mexico)",
+   "verification": "A",
+   "enabled": false,
+   "lastSuccessfulTest": null,
+   "disabledReason": "No embeddable live broadcast"
+  },
+  {
+   "id": "xhbzc",
+   "name": "Canal 8 BCS (XHBZC)",
+   "city": "La Paz, BCS",
+   "genre": "entertainment",
+   "region": "regional",
+   "playback": {
+    "type": "hls",
+    "url": "https://s5.mexside.net:1936/xhbzc81/xhbzc81/playlist.m3u8"
+   },
+   "originEvidence": "iptv-org XHBZCTDT.mx; stream host referenced by official website (https://iert.bcs.gob.mx/)",
+   "verification": "A",
+   "enabled": true,
+   "lastSuccessfulTest": "2026-11-22",
+   "logo": "xhbzc"
+  },
+  {
+   "id": "iertbcs-82",
+   "name": "Canal 8.2 BCS",
+   "city": "La Paz, BCS",
+   "genre": "culture",
+   "region": "regional",
+   "playback": {
+    "type": "hls",
+    "url": "https://s5.mexside.net:1936/xhbzc82/xhbzc82/playlist.m3u8"
+   },
+   "originEvidence": "iptv-org IERTBCSCanal82.mx; website error: TimeoutError; stream host referenced on official page / (https://iert.bcs.gob.mx/canal-8-1-2/)",
+   "verification": "A",
+   "enabled": true,
+   "lastSuccessfulTest": "2026-11-22",
+   "logo": "iertbcs-82"
+  },
+  {
+   "id": "psn",
+   "name": "PSN",
+   "city": "Tijuana, BC",
+   "genre": "news",
+   "region": "regional",
+   "playback": {
+    "type": "hls",
+    "url": "https://srspsn.live/live/livestream.m3u8"
+   },
+   "originEvidence": "iptv-org PSN.mx; stream host referenced on official page /en-vivo (https://psn.si/)",
+   "verification": "A",
+   "enabled": true,
+   "lastSuccessfulTest": "2026-11-22",
+   "logo": "psn"
+  },
+  {
+   "id": "psn-452",
+   "name": "PSN 45.2",
+   "city": "Tijuana, BC",
+   "genre": "news",
+   "region": "regional",
+   "playback": {
+    "type": "hls",
+    "url": "https://srspsn2.live/live/livestream.m3u8"
+   },
+   "originEvidence": "iptv-org PSNCanal452.mx; stream host referenced on official page /en-vivo (https://psn.si/)",
+   "verification": "A",
+   "enabled": true,
+   "lastSuccessfulTest": "2026-11-22",
+   "logo": "psn-452"
+  },
+  {
+   "id": "el-sonorense",
+   "name": "El Sonorense",
+   "city": "Hermosillo, Sonora",
+   "genre": "culture",
+   "region": "regional",
+   "playback": {
+    "type": "hls",
+    "url": "https://s5.mexside.net:1936/elsonorense/elsonorense/playlist.m3u8"
+   },
+   "originEvidence": "iptv-org ElSonorense.mx; stream host referenced by official website (https://www.elsonorense.com/)",
+   "verification": "A",
+   "enabled": true,
+   "lastSuccessfulTest": "2026-11-22"
+  },
+  {
+   "id": "telemax",
+   "name": "Telemax",
+   "city": "Hermosillo, Sonora",
+   "genre": "entertainment",
+   "region": "regional",
+   "playback": {
+    "type": "hls",
+    "url": "https://s5.mexside.net:1936/telemax/telemax/playlist.m3u8"
+   },
+   "originEvidence": "iptv-org Telemax.mx; stream host referenced by official website (https://www.telemax.com.mx/)",
+   "verification": "A",
+   "enabled": true,
+   "lastSuccessfulTest": "2026-11-22",
+   "logo": "telemax"
+  },
+  {
+   "id": "tv-migrante",
+   "name": "TV Migrante",
+   "city": "Sonora",
+   "genre": "entertainment",
+   "region": "regional",
+   "playback": {
+    "type": "hls",
+    "url": "https://s5.mexside.net:1936/tvmigrante/tvmigrante/playlist.m3u8"
+   },
+   "originEvidence": "iptv-org TVMigrante.mx; stream host referenced by official website (https://mxplus.tv/television/tv-migrante)",
+   "verification": "A",
+   "enabled": true,
+   "lastSuccessfulTest": "2026-11-22",
+   "logo": "tv-migrante"
+  },
+  {
+   "id": "sipse-tvcun",
+   "name": "SIPSE TV Cancún",
+   "city": "Cancún, Q. Roo",
+   "genre": "news",
+   "region": "regional",
+   "playback": {
+    "type": "hls",
+    "url": "https://webprod.sipse.com.mx:8080/show/tvcun.m3u8"
+   },
+   "originEvidence": "iptv-org SIPSETVCUN81.mx; stream host referenced by official website (https://sipseplay.com/)",
+   "verification": "A",
+   "enabled": true,
+   "lastSuccessfulTest": "2026-11-22",
+   "logo": "sipse-tvcun"
+  },
+  {
+   "id": "smrtv",
+   "name": "Sistema Michoacano de TV",
+   "city": "Morelia, Michoacán",
+   "genre": "culture",
+   "region": "regional",
+   "playback": {
+    "type": "hls",
+    "url": "https://s5.mexside.net:1936/enlinea/enlinea/playlist.m3u8"
+   },
+   "originEvidence": "iptv-org SistemaMichoacanodeTV.mx; stream host referenced by official website (https://www.sistemamichoacano.tv/television)",
+   "verification": "A",
+   "enabled": true,
+   "lastSuccessfulTest": "2026-11-22",
+   "logo": "smrtv"
+  },
+  {
+   "id": "turistik",
+   "name": "Turistik TV",
+   "city": "México",
+   "genre": "culture",
+   "region": "regional",
+   "playback": {
+    "type": "hls",
+    "url": "https://cdn1.cef-technology.com/stream_web/turistik/playlist.m3u8"
+   },
+   "originEvidence": "iptv-org TuristikTV.mx; stream host referenced by official website (https://turistiktv.com.mx/)",
+   "verification": "A",
+   "enabled": true,
+   "lastSuccessfulTest": "2026-11-22",
+   "logo": "turistik"
+  },
+  {
+   "id": "azteca-deportes-live",
+   "name": "TV Azteca Deportes",
+   "city": "México",
+   "genre": "sports",
+   "playback": {
+    "type": "youtube",
+    "channelId": "UCe3Ev4a4Sm9L5aO9sJJ_WXw",
+    "liveTitle": "en vivo|🔴|transmisi[oó]n"
+   },
+   "originEvidence": "Official YouTube channel of TV Azteca Deportes (Mexico)",
+   "verification": "A",
+   "enabled": true,
+   "lastSuccessfulTest": null
+  },
+  {
+   "id": "claro-sports-live",
+   "name": "Claro Sports",
+   "city": "México",
+   "genre": "sports",
+   "playback": {
+    "type": "youtube",
+    "channelId": "UCqfCJBfrFSO4tZM1LNZTBFQ",
+    "liveTitle": "en vivo|🔴|transmisi[oó]n"
+   },
+   "originEvidence": "Official YouTube channel of Claro Sports (Mexico)",
+   "verification": "A",
+   "enabled": true,
+   "lastSuccessfulTest": null
+  }
+ ]
+}
